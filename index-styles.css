@@ -1,6 +1,7 @@
 html, body {
     margin: 0; 
     padding: 0; 
+    background-color: white;
 }
 h1 {
     text-align: center; 
@@ -15,16 +16,25 @@ h4 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 figure {
+    background-color: cornsilk;
+    max-width: 300px;
+    display: flex;  
+    padding: 20px; 
+    border-width: 10px;
+    border: 2px solid;
+    border-radius: 6px; 
+    border-color: lightcoral; 
     text-align: center; 
     display: inline-block;  
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 figure img {
+    text-align: center;
+    flex: 1; 
+    object-fit:contain; 
     padding: 10px; 
     border-radius: 4px;
 }
-
-
 button[type=submit] {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     border-radius: 4px;
@@ -64,10 +74,17 @@ button[type=submit] {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .top_container {
+    width: 100%;
+    height: 100%; 
     display: flex; 
     justify-content: center;
 }
 .bottom_container {
+    width: 100%;
+    height: 100%; 
     display: flex; 
     justify-content: center;
+}
+.page_content {
+    margin: 20px;
 }
