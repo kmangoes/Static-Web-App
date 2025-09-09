@@ -68,3 +68,18 @@ button[type=submit] {
     display: flex; 
     justify-content: center; 
 }
+.bottom_section {
+    display: flex; 
+    justify-content: center;
+}
+.column_2 {
+    flex: 1; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.column_2 img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
